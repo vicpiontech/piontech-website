@@ -18,7 +18,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
     "classnames": "^2.5.1",
-    "next": "16.0.1",
+    "next": "^16.2.12",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-countup": "^6.5.3",
@@ -39,7 +39,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.1",
+    "eslint-config-next": "^16.2.12",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
