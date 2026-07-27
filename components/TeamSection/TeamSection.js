@@ -68,13 +68,14 @@ const TeamSection = (props) => {
                                             <Image src={team.tImg} alt="" />
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </Link>
-                                    </div>
-                                    <div className="team_member_info">
-                                        <h3 className="team_member_name">
-                                            <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>{team.name}</Link>
-                                        </h3>
-                                        <h4 className="team_member_designation">{team.title}</h4>
-                                        <ul className="social_icons_block unordered_list justify-content-center">
+  </div>
+  <div className="team_member_info">
+    <span className="badge bg-warning text-dark mb-2">Coming Soon</span>
+    <h3 className="team_member_name">
+      <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>{team.name}</Link>
+    </h3>
+    <h4 className="team_member_designation">{team.title}</h4>
+    <ul className="social_icons_block unordered_list justify-content-center">
                                             <li>
                                                 <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>
                                                     <Image src={sImg1} alt="Icon Facebook" />
