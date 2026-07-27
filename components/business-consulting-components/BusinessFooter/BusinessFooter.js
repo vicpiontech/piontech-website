@@ -95,15 +95,8 @@ const BusinessFooter = (props) => {
                           Careers
                         </span>
                       </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/team">
-                        <span className="icon_list_text">
-                          Our Team
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
+</li>
+<li>
                       <Link onClick={ClickHandler} href="/portfolio">
                         <span className="icon_list_text">
                           Latest Projects

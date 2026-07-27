@@ -103,16 +103,7 @@ const TeamSection = (props) => {
                     </Swiper>
                 </div>
 
-                <div className="container">
-                    <div className="btns_group pb-0">
-                        <Link className="btn btn-outline-light" href="/team">
-                            <span className="btn_label" data-text="Our All Experts">Our All Experts</span>
-                            <span className="btn_icon">
-                                <i className="fa-solid fa-arrow-up-right"></i>
-                            </span>
-                        </Link>
-                    </div>
-                </div>
+
             </div>
         </section>
     );
