@@ -1,6 +1,5 @@
 ﻿import React, { useEffect, useState } from 'react';
 import Teams from '../../api/team'
-import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -63,41 +62,41 @@ const TeamSection = (props) => {
                         {displayedTeams.map((team) => (
                             <SwiperSlide key={team.Id}>
                                 <div className="team_block">
-                                    <div className="team_member_image">
-                                        <Link onClick={ClickHandler} className="image_wrap" aria-label="Team Details Button" href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>
-                                            <Image src={team.tImg} alt="" />
-                                            <i className="fa-solid fa-arrow-up-right"></i>
-                                        </Link>
-  </div>
-  <div className="team_member_info">
-    <span className="badge bg-warning text-dark mb-2">Coming Soon</span>
-    <h3 className="team_member_name">
-      <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>{team.name}</Link>
-    </h3>
-    <h4 className="team_member_designation">{team.title}</h4>
-    <ul className="social_icons_block unordered_list justify-content-center">
-                                            <li>
-                                                <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>
-                                                    <Image src={sImg1} alt="Icon Facebook" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>
-                                                    <Image src={sImg2} alt="Icon Twitter X" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>
-                                                    <Image src={sImg3} alt="Icon Linkedin" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`}>
-                                                    <Image src={sImg4} alt="Icon Instagram" />
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div>
+ <div className="team_member_image">
+    <div className="image_wrap" aria-label="Team Details Button">
+      <Image src={team.tImg} alt="" />
+      <i className="fa-solid fa-arrow-up-right"></i>
+    </div>
+    </div>
+    <div className="team_member_info">
+      <span className="badge bg-warning text-dark mb-2">Coming Soon</span>
+      <h3 className="team_member_name">
+        <span>{team.name}</span>
+      </h3>
+      <h4 className="team_member_designation">{team.title}</h4>
+      <ul className="social_icons_block unordered_list justify-content-center">
+        <li>
+          <span>
+            <Image src={sImg1} alt="Icon Facebook" />
+          </span>
+        </li>
+        <li>
+          <span>
+            <Image src={sImg2} alt="Icon Twitter X" />
+          </span>
+        </li>
+        <li>
+          <span>
+            <Image src={sImg3} alt="Icon Linkedin" />
+          </span>
+        </li>
+        <li>
+          <span>
+            <Image src={sImg4} alt="Icon Instagram" />
+          </span>
+        </li>
+      </ul>
+    </div>
                                 </div>
                             </SwiperSlide>
                         ))}
