@@ -40,20 +40,13 @@ export const aboutMenuItems = [
         icon: iconPartners,
         colClass: 'col-lg-3 col-md-6'
     },
-    {
-        title: 'Team',
-        href: '/team',
-        description: 'Meet the experts',
-        icon: iconTeam,
-        colClass: 'col-lg-3 col-md-6'
-    },
-    {
-        title: 'Career',
-        href: '/about#career',
-        description: 'Join the PionTech team',
-        icon: iconCareer,
-        colClass: 'col-lg-3 col-md-6'
-    }
+  {
+    title: 'Career',
+    href: '/about#career',
+    description: 'Join the PionTech team',
+    icon: iconCareer,
+    colClass: 'col-lg-3 col-md-6'
+  }
 ];
 
 export const servicesMenuItems = [
