@@ -37,10 +37,17 @@ export const aboutMenuItems = [
         title: 'Technical Partners',
         href: '/partners',
         description: 'Leading vendors & alliances',
-        icon: iconPartners,
-        colClass: 'col-lg-3 col-md-6'
-    },
-  {
+  icon: iconPartners,
+  colClass: 'col-lg-3 col-md-6'
+},
+{
+  title: 'Team',
+  href: '/team',
+  description: 'Meet the experts',
+  icon: iconTeam,
+  colClass: 'col-lg-3 col-md-6'
+},
+{
     title: 'Career',
     href: '/about#career',
     description: 'Join the PionTech team',

@@ -1,6 +1,7 @@
 ﻿import React, { useEffect, useState } from 'react';
 import Teams from '../../api/team'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Link from 'next/link';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import sImg1 from 'public/images/icons/icon_facebook.svg'
@@ -100,12 +101,20 @@ const TeamSection = (props) => {
                                 </div>
                             </SwiperSlide>
                         ))}
-                    </Swiper>
-                </div>
-
-
-            </div>
-        </section>
+</Swiper>
+</div>
+<div className="container">
+  <div className="btns_group pb-0">
+    <Link className="btn btn-outline-light" href="/team">
+      <span className="btn_label" data-text="Our All Experts">Our All Experts</span>
+      <span className="btn_icon">
+        <i className="fa-solid fa-arrow-up-right"></i>
+      </span>
+    </Link>
+  </div>
+</div>
+</div>
+</section>
     );
 }
 
