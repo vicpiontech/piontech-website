@@ -51,27 +51,8 @@ const Footer = (props) => {
                         </div>
 </div>
 <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="footer_widget pe-md-3">
-                                    <h2 className="footer_info_title">Newsletter</h2>
-                                    <p>
-                                        Sign up to Piontech weekly newsletter to get the latest updates.
-                                    </p>
-                                    <form className="footer_newslatter" onSubmit={SubmitHandler}>
-                                        <label htmlFor="footer_mail_input">
-                                            <Image src={icon4} alt="Mail SVG Icon" />
-                                        </label>
-                                        <input id="footer_mail_input" type="email" name="email" placeholder="Enter your email" />
-                                        <button type="submit"><i className="fa-solid fa-paper-plane"></i></button>
-                                    </form>
-                                    <ul className="social_links_block unordered_list">
-                                        <li><Link onClick={ClickHandler} href="/">Facebook</Link></li>
-                                        <li><Link onClick={ClickHandler} href="/">Twitter</Link></li>
-                                        <li><Link onClick={ClickHandler} href="/">Linkdin</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="footer_widget">
+  <div className="footer_widget">
+
                                     <h3 className="footer_info_title">Services</h3>
                                     <ul className="icon_list unordered_list_block">
                                         {Services.slice(0, 6).map((service, srv) => (
