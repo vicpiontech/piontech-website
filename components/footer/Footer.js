@@ -3,18 +3,12 @@ import Link from 'next/link'
 import icon1 from 'public/images/icons/icon_mail.svg'
 import icon2 from 'public/images/icons/icon_calling.svg'
 import icon3 from 'public/images/icons/icon_map_mark.svg'
-import icon4 from 'public/images/icons/icon_mail_2.svg'
 import Services from '../../api/service'
 import Image from 'next/image'
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
-
-const SubmitHandler = (e) => {
-    e.preventDefault()
-}
-
 
 const Footer = (props) => {
     return (
@@ -55,10 +49,8 @@ const Footer = (props) => {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div className="footer_main_content">
-                        <div className="row justify-content-lg-between">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+</div>
+<div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer_widget pe-md-3">
                                     <h2 className="footer_info_title">Newsletter</h2>
                                     <p>

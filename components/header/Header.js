@@ -35,13 +35,8 @@ const Header = (props) => {
 
     return (
 
-        <header className="site_header site_header_1">
-            <div className="header_top text-center">
-                <div className="container">
-                    <p className="m-0">Subscribe to our newsletter and stay updated with the latest technology solutions. <Link onClick={ClickHandler} href="/service"><u>Learn more</u> <i className="fa-solid fa-angle-right"></i></Link></p>
-                </div>
-            </div>
-            <div className={`header_bottom stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
+<header className="site_header site_header_1">
+<div className={`header_bottom stricky ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-3 col-lg-2 col-5">
