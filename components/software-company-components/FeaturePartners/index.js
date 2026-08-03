@@ -11,98 +11,78 @@ import pimg6 from 'public/images/clients/client_logo_6.webp'
 import pimg7 from 'public/images/clients/client_logo_7.webp'
 import Image from "next/image";
 
-const partners = [
-    {
-        pImg: pimg1,
-    },
-    {
-        pImg: pimg2,
-    },
-    {
-        pImg: pimg3,
-    },
-    {
-        pImg: pimg4,
-    },
-    {
-        pImg: pimg5,
-    },
-    {
-        pImg: pimg6,
-    },
-{
-  pImg: pimg7,
-},
+const basePartners = [
+{ pImg: pimg1, },
+{ pImg: pimg2, },
+{ pImg: pimg3, },
+{ pImg: pimg4, },
+{ pImg: pimg5, },
+{ pImg: pimg6, },
+{ pImg: pimg7, },
 ]
+const partners = [...basePartners, ...basePartners]
 
 var settings = {
-    dots: false,
-    infinite: true,
-    speed: 3000,
-slidesToShow: 6,
-slidesToScroll: 1,
-autoplay: true,
-autoplaySpeed: 0,
-    cssEase: "linear",
-    arrows: false,
-
-    responsive: [
-        {
-            breakpoint: 1025,
-            settings: {
-slidesToShow: 6,
+  dots: false,
+  infinite: true,
+  speed: 3000,
+  slidesToShow: 7,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 0,
   cssEase: "linear",
   arrows: false,
-  infinite: true,
 
   responsive: [
-  {
-    breakpoint: 1025,
-    settings: {
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      infinite: true,
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 450,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 350,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
     }
-  },
-        {
-            breakpoint: 991,
-            settings: {
-                slidesToShow: 5,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 450,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 350,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
+  ]
 };
 
 
