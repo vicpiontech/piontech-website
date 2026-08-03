@@ -209,17 +209,16 @@
 		z-index: 1;
 		position: relative;
 		padding: 59px 0 14px;
-		&:before {
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			z-index: -1;
-			content: "";
-			position: absolute;
-			animation: hueRotate 6s linear infinite;
-			background: linear-gradient(45deg, #FAEC60, #F3A338, #F37528, #F44380, #BE3DB3, #0044EB, #5A71F1, #439EFF);
-		}
+&:before {
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+content: "";
+position: absolute;
+background: var(--bs-dark);
+}
 	}
 
 	.footer_main_content {
