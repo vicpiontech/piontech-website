@@ -25,7 +25,7 @@ const partners = [...basePartners, ...basePartners]
 var settings = {
   dots: false,
   infinite: true,
-  speed: 2000,
+  speed: 3500,
   slidesToShow: 7,
   slidesToScroll: 1,
   autoplay: true,
