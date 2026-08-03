@@ -73,20 +73,20 @@
 		background-color: #0132B8;
 		font-family: 'Axiforma SemiBold';
 	}
-	.client_logo_carousel .swiper-wrapper .swiper-slide {
-		padding: 30px 8px;
-	}
-	.client_logo_item {
-		height: 70px;
-		border: none;
-		display: flex;
-		border-radius: 5px;
-		align-items: center;
-		clip-path: polygon(84% 0, 100% 40%, 100% 100%, 0 100%, 0 0);
-		img {
-			max-width: 90px;
-		}
-	}
+.client_logo_carousel .swiper-wrapper .swiper-slide {
+padding: 30px 8px;
+}
+.client_logo_item {
+height: 80px;
+border: none;
+display: flex;
+border-radius: 5px;
+align-items: center;
+clip-path: polygon(84% 0, 100% 40%, 100% 100%, 0 100%, 0 0);
+img {
+max-width: 140px;
+}
+}
 
 	.slick-list {
 		overflow: unset;
