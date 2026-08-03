@@ -26,7 +26,7 @@ const Hero2 = (props) => {
                                 We Design & Deliver <mark>End-to-End</mark> ICT, Security & Power Solutions.
                             </h1>
                             <p>
-                                PionTech Systems partners with organizations to modernize infrastructure, secure their environments, and unlock operational efficiency across East Africa.
+                                PionTech Systems partners with businesses across East Africa to modernize IT infrastructure, harden security, and drive operational efficiency — turning technology into a competitive advantage.
                             </p>
                             <ul className="step_list text-white unordered_list_block">
                                 <li>Consultative reviews to uncover real pain-points</li>
