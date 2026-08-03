@@ -30,12 +30,9 @@ const partners = [
     {
         pImg: pimg6,
     },
-    {
-        pImg: pimg7,
-    },
-    {
-        pImg: pimg2,
-    },
+{
+  pImg: pimg7,
+},
 ]
 
 var settings = {
@@ -103,7 +100,7 @@ const FeaturePartners = (props) => {
         <div className="feature_partners_section">
             <div className="container position-relative">
                 <div className="title_text text-white">
-                    Our Technology Partners
+                    Some of our Clients
                 </div>
                 <div className="client_logo_carousel">
                     <Slider {...settings}>
