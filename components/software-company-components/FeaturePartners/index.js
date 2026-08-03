@@ -39,10 +39,10 @@ var settings = {
     dots: false,
     infinite: true,
     speed: 3000,
-    slidesToShow: 7,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,
+slidesToShow: 6,
+slidesToScroll: 1,
+autoplay: true,
+autoplaySpeed: 0,
     cssEase: "linear",
     arrows: false,
 
@@ -50,10 +50,23 @@ var settings = {
         {
             breakpoint: 1025,
             settings: {
-                slidesToShow: 7,
-                slidesToScroll: 1,
-            }
-        },
+slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 0,
+  cssEase: "linear",
+  arrows: false,
+  infinite: true,
+
+  responsive: [
+  {
+    breakpoint: 1025,
+    settings: {
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      infinite: true,
+    }
+  },
         {
             breakpoint: 991,
             settings: {
