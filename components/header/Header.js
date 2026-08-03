@@ -42,10 +42,9 @@ const Header = (props) => {
                         <div className="col-xl-3 col-lg-2 col-5">
                             <div className="site_logo">
                                 <Link onClick={ClickHandler} className="site_link" href="/">
-                                    <Image src={logo} alt="PionTech Systems logo" />
-                                </Link>
-                                <div className="badge bg-danger-subtle text-danger">We're Hiring</div>
-                            </div>
+<Image src={logo} alt="PionTech Systems logo" />
+      </Link>
+    </div>
                         </div>
                         <div className="col-xl-6 col-lg-7 col-2">
                             <nav className="main_menu navbar navbar-expand-lg">
