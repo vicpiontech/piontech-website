@@ -31,17 +31,17 @@
 	}
 }
 .heading_focus_text.has_underline {
-	z-index: 1;
-	font-weight: 500;
-	position: relative;
-	margin-bottom: 26px;
-	color: var(--bs-dark);
-	padding: 0 36px 6px 0;
-	text-transform: uppercase;
-	background-size: auto 18px;
-	background-repeat: no-repeat;
-	font-family: 'Axiforma Medium';
-	background-position: right bottom;
+z-index: 1;
+font-weight: 500;
+position: relative;
+margin-bottom: 26px;
+color: var(--bs-dark);
+padding: 0 36px 6px 0;
+text-transform: none;
+background-size: auto 18px;
+background-repeat: no-repeat;
+font-family: 'Axiforma Medium';
+background-position: right bottom;
 }
 
 .text-white {

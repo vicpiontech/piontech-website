@@ -20,7 +20,7 @@ const Hero2 = (props) => {
                     <div className="col-lg-6">
                         <div className="content_wrap">
                             <div className="heading_focus_text has_underline text-white d-inline-flex" style={{ backgroundImage: `url(${'/images/shapes/shape_title_under_line.svg'})` }}>
-                                Turnkey ICT Integrator
+                                Turnkey ICT & Security Solutions
                             </div>
                             <h1 className="text-white">
                                 We Design & Deliver <mark>End-to-End</mark> ICT, Security & Power Solutions.
