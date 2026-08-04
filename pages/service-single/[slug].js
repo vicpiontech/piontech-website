@@ -112,7 +112,7 @@ const ServiceSinglePage = () => {
                                 </div>
                             </>
                         )}
-                        <ProcessTechnology />
+                        <ProcessTechnology serviceSlug={ServiceDetails?.slug} />
                         {serviceOutcomes.length > 0 && (
                             <>
                                 <h3 className="details_item_info_title">Service Outcomes</h3>
