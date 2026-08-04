@@ -88,6 +88,24 @@ import tel25 from 'public/images/partners/telecommunication/partner_logo_46.webp
 import pwr1 from 'public/images/partners/power energy/partner_logo_43.webp';
 import pwr2 from 'public/images/partners/power energy/partner_logo_44.webp';
 
+import sfa1 from 'public/images/partners/smart facilities automation/partner_logo_4.webp';
+import sfa2 from 'public/images/partners/smart facilities automation/partner_logo_18.webp';
+import sfa3 from 'public/images/partners/smart facilities automation/partner_logo_27.webp';
+import sfa4 from 'public/images/partners/smart facilities automation/partner_logo_29.webp';
+import sfa5 from 'public/images/partners/smart facilities automation/partner_logo_30.webp';
+import sfa6 from 'public/images/partners/smart facilities automation/partner_logo_31.webp';
+import sfa7 from 'public/images/partners/smart facilities automation/partner_logo_45.webp';
+
+import iot1 from 'public/images/partners/iot solutions/partner_logo_4.webp';
+import iot2 from 'public/images/partners/iot solutions/partner_logo_18.webp';
+import iot3 from 'public/images/partners/iot solutions/partner_logo_27.webp';
+import iot4 from 'public/images/partners/iot solutions/partner_logo_29.webp';
+import iot5 from 'public/images/partners/iot solutions/partner_logo_30.webp';
+import iot6 from 'public/images/partners/iot solutions/partner_logo_31.webp';
+import iot7 from 'public/images/partners/iot solutions/partner_logo_32.webp';
+import iot8 from 'public/images/partners/iot solutions/partner_logo_45.webp';
+import iot9 from 'public/images/partners/iot solutions/partner_logo_46.webp';
+
 const partnerSets = {
 'ict-solutions-systems-and-hardware': [
 { id: 'ict-1', image: ict1 }, { id: 'ict-2', image: ict2 }, { id: 'ict-3', image: ict3 }, { id: 'ict-4', image: ict4 }, { id: 'ict-5', image: ict5 },
@@ -121,10 +139,13 @@ const partnerSets = {
 { id: 'pwr-1', image: pwr1 }, { id: 'pwr-2', image: pwr2 },
 ],
 'smart-facilities-and-automation': [
-{ id: 'sfa-1', image: pwr1 }, { id: 'sfa-2', image: pwr2 },
+{ id: 'sfa-1', image: sfa1 }, { id: 'sfa-2', image: sfa2 }, { id: 'sfa-3', image: sfa3 }, { id: 'sfa-4', image: sfa4 },
+{ id: 'sfa-5', image: sfa5 }, { id: 'sfa-6', image: sfa6 }, { id: 'sfa-7', image: sfa7 },
 ],
 'iot-solutions-and-remote-monitoring': [
-{ id: 'iot-1', image: pwr1 }, { id: 'iot-2', image: pwr2 },
+{ id: 'iot-1', image: iot1 }, { id: 'iot-2', image: iot2 }, { id: 'iot-3', image: iot3 }, { id: 'iot-4', image: iot4 },
+{ id: 'iot-5', image: iot5 }, { id: 'iot-6', image: iot6 }, { id: 'iot-7', image: iot7 }, { id: 'iot-8', image: iot8 },
+{ id: 'iot-9', image: iot9 },
 ],
 };
 
