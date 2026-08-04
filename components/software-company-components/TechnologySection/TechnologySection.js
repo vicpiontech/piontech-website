@@ -120,6 +120,12 @@ const partnerSets = {
 'power-and-renewable-energy': [
 { id: 'pwr-1', image: pwr1 }, { id: 'pwr-2', image: pwr2 },
 ],
+'smart-facilities-and-automation': [
+{ id: 'sfa-1', image: pwr1 }, { id: 'sfa-2', image: pwr2 },
+],
+'iot-solutions-and-remote-monitoring': [
+{ id: 'iot-1', image: pwr1 }, { id: 'iot-2', image: pwr2 },
+],
 };
 
 const defaultBrandLogos = partnerSets['ict-solutions-systems-and-hardware'];
