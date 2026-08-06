@@ -261,7 +261,7 @@ return (
 className="heading_focus_text has_underline d-inline-flex"
 style={{ backgroundImage: `url(${'/images/shapes/shape_title_under_line.svg'})` }} 
 >
-The Brands that We Work With
+Brands We Work With
 </div>
 <h2 className="heading_text mb-0">
 Trusted <mark>Technology Partners</mark>
