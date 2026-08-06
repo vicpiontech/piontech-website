@@ -102,12 +102,12 @@ const PartnerSection = (props) => {
     return (
         <section className="client_logo_section section_space bg-transparent mb-0">
             <div className="container">
-                <div className="heading_block text-center">
-                    <h2 className="heading_text mb-0">
-                        Brands We Work With
-                    </h2>
-                </div>
-                <div className="client_logo_carousel swiper no_style">
+<div className="heading_block text-center">
+<h2 className="heading_text mb-0">
+The Brands that We Work With
+</h2>
+</div>
+<div className="client_logo_carousel swiper no_style">
                     <Slider {...settings}>
                         {partners.map((partner, pitem) => (
                             <div className="client_logo_item" key={pitem}>
