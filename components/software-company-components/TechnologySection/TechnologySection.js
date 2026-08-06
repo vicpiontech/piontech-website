@@ -7,7 +7,6 @@ import Image from 'next/image';
 import ict1 from 'public/images/partners/ict solutions/partner_logo_1.webp';
 import ict2 from 'public/images/partners/ict solutions/partner_logo_2.webp';
 import ict3 from 'public/images/partners/ict solutions/partner_logo_3.webp';
-import ict4 from 'public/images/partners/ict solutions/partner_logo_4.webp';
 import ict5 from 'public/images/partners/ict solutions/partner_logo_5.webp';
 import ict6 from 'public/images/partners/ict solutions/partner_logo_6.webp';
 import ict7 from 'public/images/partners/ict solutions/partner_logo_7.webp';
@@ -111,7 +110,6 @@ const partnerSets = {
 { id: 'ict-1', image: ict1 },
 { id: 'ict-2', image: ict2 },
 { id: 'ict-3', image: ict3 },
-{ id: 'ict-4', image: ict4 },
 { id: 'ict-5', image: ict5 },
 { id: 'ict-6', image: ict6 },
 { id: 'ict-7', image: ict7 },
@@ -261,7 +259,7 @@ return (
 className="heading_focus_text has_underline d-inline-flex"
 style={{ backgroundImage: `url(${'/images/shapes/shape_title_under_line.svg'})` }} 
 >
-The Brands We Work With
+Brands We Work With
 </div>
 <h2 className="heading_text mb-0">
 Trusted <mark>Technology Partners</mark>
