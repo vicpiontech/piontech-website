@@ -4,7 +4,7 @@ import Hero3 from '../../components/hero3/hero3';
 import PartnerSection from '../../components/business-consulting-components/PartnerSection/PartnerSection';
 import EmpoweringSuccess from '../../components/business-consulting-components/EmpoweringSuccess/EmpoweringSuccess';
 import ConsultingService from '../../components/business-consulting-components/ConsultingService/ConsultingService';
-import BusinessTestimonial from '../../components/business-consulting-components/BusinessTestimonial/BusinessTestimonial';
+
 import BusinessBlogSection from '../../components/business-consulting-components/BusinessBlogSection/BusinessBlogSection';
 import BusinessContact from '../../components/business-consulting-components/BusinessContact/BusinessContact';
 import BusinessFooter from '../../components/business-consulting-components/BusinessFooter/BusinessFooter';
@@ -21,9 +21,8 @@ const HomePage3 = () => {
                     <Hero3 />
                     <PartnerSection />
                     <EmpoweringSuccess />
-                    <ConsultingService />
-                    <BusinessTestimonial />
-                    <BusinessBlogSection />
+<ConsultingService />
+<BusinessBlogSection />
                     <BusinessContact />
                     <BusinessFooter />
                     <Scrollbar />

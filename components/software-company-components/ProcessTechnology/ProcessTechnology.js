@@ -11,7 +11,7 @@ AccordionHeader,
 AccordionItem,
 } from 'reactstrap';
 import TechnologySection from '../TechnologySection/TechnologySection';
-import Testimonial from '../Testimonial/Testimonial';
+
 import Image from 'next/image';
 
 const ProcessTechnology = ({ serviceSlug }) => {
@@ -75,7 +75,6 @@ return (
 </div>
 </div>
 <TechnologySection serviceSlug={serviceSlug} />
-<Testimonial/>
 </div>
 
 <div className="decoration_item shape_image_1"><Image src={shape1} alt="Piontech Shape" /></div>
