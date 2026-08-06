@@ -22,6 +22,7 @@ if (open === id) { setOpen(); } else { setOpen(id); }
 
 return (
 <section className="process_technology_review_section bg-light section_decoration">
+<div>
 <div className="container">
 <div className="row align-items-center justify-content-lg-between">
 <div className="col-lg-6">
