@@ -13,7 +13,7 @@ AccordionItem,
 import TechnologySection from '../TechnologySection/TechnologySection';
 import Image from 'next/image';
 
-const ProcessTechnology = ({ serviceSlug }) => {
+const ProcessTechnology = ({ serviceSlug }) => { // JSX fix applied
 const [open, setOpen] = useState('1');
 const toggle = (id) => {
 if (open === id) { setOpen(); } else { setOpen(id); }
