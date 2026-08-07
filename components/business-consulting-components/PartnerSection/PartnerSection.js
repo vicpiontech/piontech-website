@@ -104,7 +104,7 @@ const PartnerSection = (props) => {
             <div className="container">
 <div className="heading_block text-center">
 <h2 className="heading_text mb-0">
-Brands We Work With
+The Brands We Work With
 </h2>
 </div>
 <div className="client_logo_carousel swiper no_style">
