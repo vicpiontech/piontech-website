@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -104,7 +104,7 @@ const PartnerSection = (props) => {
             <div className="container">
 <div className="heading_block text-center">
 <h2 className="heading_text mb-0">
-The Brands We Work With
+Brands We Work With
 </h2>
 </div>
 <div className="client_logo_carousel swiper no_style">
